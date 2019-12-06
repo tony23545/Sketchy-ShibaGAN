@@ -7,3 +7,9 @@ I built a small [dataset](https://drive.google.com/file/d/1qJPXN8rIq78y186MaPUXf
 ![image](https://github.com/tony23545/pytorch-CycleGAN-and-pix2pix/blob/master/imgs/35638707962.jpg)
 
 Simply download this dataset and upzip it to the datasets/ folder.
+
+## Training 
+To train the model with dog dataset, run
+```
+python train.py --dataroot ./datasets/dog --name dog_pix2pix --model pix2pix --direction AtoB
+```
