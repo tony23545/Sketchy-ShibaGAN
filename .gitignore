@@ -1,6 +1,6 @@
 .DS_Store
 debug*
-datasets/
+datasets/dog/
 checkpoints/
 results/
 build/
